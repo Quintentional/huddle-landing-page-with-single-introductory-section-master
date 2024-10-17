@@ -110,3 +110,84 @@ i:hover {
 .fa-instagram {
     margin-right: 10rem;
 }
+
+@media (max-width: 375px){
+    body {
+        width: 375px;
+        height: auto;
+        background-image: url(./images/bg-mobile.svg);
+    }
+
+header {
+    height: 20%;
+    width: 100%;
+}
+
+header img {
+    width: 140px;
+    margin: 3rem 0 3rem 2rem;
+}
+
+
+
+.hero {
+    width: 100%;
+    height: 60%;
+    flex-direction: column;
+    text-align: center;
+}
+
+.hero-img {
+    width: 100%;
+    height: 50%;
+    margin-bottom: 1rem;
+}
+
+.hero-img img {
+    width: 300px;
+    margin: 0;
+}
+
+.hero-content {
+    width: 100%;
+    height: 50%;
+    align-items: center;  
+}
+
+h1 {
+    font-size: 25px;
+    width: 20rem;
+    margin: 3rem 0 1rem;
+}
+
+p {
+    font-size: 16px;
+    margin: 0;
+    width: 20.5rem;
+}
+
+a {
+    font-size: 13px;
+    padding: .7rem 5rem;
+    margin: 2rem 0 4rem 0;
+}
+
+footer {
+    height: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+i {
+    margin: 0 1rem 0 0;
+}
+
+.fa-instagram {
+    margin-right: 0;
+}
+
+}
+
+
